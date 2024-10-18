@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  justify-content: space-between; /* Вирівнює контент по краях */
+  align-items: center; /* Вертикальне вирівнювання по центру */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Роздільник між контактами */
+  background-color: #fff; /* Білий фон для контенту */
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column; /* Розташування імені над номером */
+  margin-right: 20px; /* Відступ між інформацією та кнопкою */
+}
+
+.contactInfo p {
+  margin: 0; /* Скидаємо відступи для параграфів */
+  font-size: 16px; /* Збільшуємо розмір шрифту для кращої видимості */
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}

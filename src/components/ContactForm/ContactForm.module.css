@@ -1,0 +1,37 @@
+.contactFormContainer {
+  border: 1px solid #ccc; /* Тонка рамка */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactForm div {
+  margin-bottom: 15px; /* Відступ між полями */
+}
+
+.contactForm label {
+  margin-bottom: 5px; /* Відступ між надписом і полем */
+  font-weight: bold;
+  display: block; /* Щоб label зайняв всю ширину */
+}
+
+.contactForm input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 92%; /* Щоб поле вводу займало всю ширину */
+}
+
+.contactForm button {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
